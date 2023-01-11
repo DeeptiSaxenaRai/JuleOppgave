@@ -2,14 +2,14 @@
 body,
 .indexPage {
   margin: auto;
-  background-image: url("Images/Santa-Clause.gif");
+  background-image: url("Santa-Clause.gif");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /* To set background image in whishlist page */
 body {
-  background-image: url("Images/bg-image.jpg");
+  background-image: url("bg-image.jpg");
 }
 
 /* To remove default css properties*/
@@ -122,7 +122,7 @@ button {
   margin-top: 0;
   margin-right: 50px;
   float: right;
-  background-image: url("Images/Santa-image.gif");
+  background-image: url("Santa-image.gif");
   width: 450px;
   height: 400px;
   background-repeat: no-repeat;
