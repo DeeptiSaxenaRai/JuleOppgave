@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wish List</title>
+
+    <!--Add google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- To add the icon from fontawesome.com -->
+    <script
+      src="https://kit.fontawesome.com/282185d7ea.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Add the External StyleSheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Add the JavaScript file in head using defer keyword-->
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <a href="index.html" class="fa-solid fa-backward" id="back"></a>
+    <div class="bodyContainer">
+      <div class="itemList">
+        <h2>Make My Wish Item List For Christmas</h2>
+        <input
+          type="text"
+          id="input-data"
+          class="input-data"
+          placeholder="Enter your gift wish"
+          required
+        /><br />
+        <button id="save-btn" name="saveBtn">Add</button>
+        <button id="reset-btn">Reset</button>
+        <button id="delete-btn">Delete Items</button>
+      </div>
+      <div class="wishList">
+        <h2>Wish Item List</h2>
+        <ul id="ul-item"></ul>
+      </div>
+    </div>
+  </body>
+</html>

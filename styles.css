@@ -1,0 +1,129 @@
+/* To design the main index page and whishlist page*/
+body,
+.indexPage {
+  margin: auto;
+  background-image: url("Images/Santa-Clause.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* To set background image in whishlist page */
+body {
+  background-image: url("Images/bg-image.jpg");
+}
+
+/* To remove default css properties*/
+* {
+  box-sizing: border-box;
+}
+
+/* To set heading and anchor tag */
+h1,
+h3,
+a {
+  color: rgb(112, 4, 4);
+  font-family: "Kanit", sans-serif;
+  text-decoration: none;
+}
+
+/* contain all words which show animation*/
+.container {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  animation-name: wish;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+/* Keyframes for animation */
+@keyframes wish {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: rgb(112, 4, 4);
+  }
+}
+
+/*Fix the width of & letter */
+#And {
+  width: 40px;
+}
+/*Fix the width of year word */
+#Year {
+  width: 100px;
+}
+
+/* to set the link for next page */
+.addLink {
+  font-size: 18px;
+  float: right;
+  margin-top: 230px;
+  margin-right: 20px;
+  color: rgb(112, 4, 4);
+}
+/* for click text */
+a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+/*To design input field  */
+input[type="text"] {
+  width: 50%;
+  height: 30px;
+  color: rgb(112, 11, 11);
+}
+/* Set color for heading and unorder list item */
+h2,
+#ul-item {
+  font-family: "Courgette", cursive;
+  color: white;
+}
+/* Set font for unorder list item */
+#ul-item {
+  font-size: 20px;
+}
+/* To design the item List  */
+.itemList {
+  width: 50%;
+  margin-top: 25px;
+  margin-left: 20px;
+  text-align: center;
+}
+/* To design all button */
+button {
+  width: 80px;
+  margin-top: 15px;
+  padding: 5px;
+  background-color: whitesmoke;
+  color: rgb(112, 11, 11);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* set width of delete button */
+#delete-btn {
+  width: 120px;
+}
+/* set back arrow for page wishlist.html */
+#back {
+  font: 8px;
+  color: white;
+}
+
+#back:hover {
+  text-decoration: none;
+}
+
+/*To design the wish list with background image */
+.wishList {
+  margin-top: 0;
+  margin-right: 50px;
+  float: right;
+  background-image: url("Images/Santa-image.gif");
+  width: 450px;
+  height: 400px;
+  background-repeat: no-repeat;
+}
